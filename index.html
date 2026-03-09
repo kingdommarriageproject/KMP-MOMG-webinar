@@ -430,6 +430,15 @@
       text-decoration:none;transition:all .2s;margin-bottom:.65rem;
     }
     .sv-join:hover{background:var(--gold-lt);transform:translateY(-2px);box-shadow:0 8px 22px rgba(201,168,76,.3)}
+    .sv-tg{
+      display:inline-flex;align-items:center;gap:.5rem;
+      background:linear-gradient(135deg,#0077b5,#29a8e0);
+      border:none;border-radius:3px;padding:.85rem 2rem;
+      text-decoration:none;color:#fff;font-size:.78rem;font-weight:600;
+      letter-spacing:.1em;text-transform:uppercase;transition:all .2s;
+      box-shadow:0 4px 16px rgba(41,168,224,.3);
+    }
+    .sv-tg:hover{background:linear-gradient(135deg,#005f8e,#1a8ec2);transform:translateY(-2px);box-shadow:0 8px 22px rgba(41,168,224,.4)}
     .sv-wa{
       display:inline-flex;align-items:center;gap:.5rem;
       background:rgba(37,211,102,.08);border:1px solid rgba(37,211,102,.25);
@@ -708,10 +717,14 @@
             <div class="sv-badge">✓</div>
             <h3>You're In!</h3>
             <p id="svMsg">Your seat is reserved.</p>
-            <a target="_blank" href="https://calendar.app.google/N8E7V94hVotm3PPD7" class="sv-join" style="margin:1.5rem 0 .65rem;">
-              📅 &nbsp; Add to my Calendar
+            <p style="font-size:.82rem;color:var(--muted);line-height:1.8;max-width:320px;margin-bottom:1.5rem;">
+              Click the button below to join our <strong style="color:var(--cream);">Telegram group</strong> — connect with like minds and get all updates and information about the webinar.<br/><br/>
+              Also check your <strong style="color:var(--cream);">email inbox</strong> for your confirmation and the meeting link.
+            </p>
+            <a class="sv-tg" href="https://t.me/+fbOYArbDws01ZmJk" target="_blank" rel="noopener">
+              ✈️ &nbsp; Join Telegram Group
             </a>
-            <a class="sv-wa" href="https://wa.me/2348164050518?text=Hi%2C%20I%20just%20registered!" target="_blank" rel="noopener">💬 &nbsp; Chat on WhatsApp</a>
+            <a class="sv-wa" href="https://wa.me/2348164050518?text=Hi%2C%20I%20just%20registered!" target="_blank" rel="noopener" style="margin-top:.65rem;">💬 &nbsp; Chat on WhatsApp</a>
           </div>
         </div>
       </div>
